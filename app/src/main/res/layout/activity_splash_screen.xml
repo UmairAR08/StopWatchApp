@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:autofillHints="@android:color/background_light"
+    android:background="@android:color/background_light"
+    tools:context="com.example.mac.stopwatchapp.SplashScreen">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="@android:color/darker_gray"
+        android:background="@android:color/holo_orange_dark"
+        app:srcCompat="@drawable/ss" />
+
+    <TextView
+        android:id="@+id/tvSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="220dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="STOPWATCH APP"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progresBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp" />
+
+</RelativeLayout>
